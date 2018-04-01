@@ -12,4 +12,4 @@ npm install @netbasal/spectator -g
 spectator
 ```
 
-![Demo](https://s9.postimg.org/dgkg27rzj/spectator.gif)
+![Demo](https://s1.gifyu.com/images/spectator.gif)
