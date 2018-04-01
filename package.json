@@ -1,0 +1,28 @@
+{
+  "name": "@netbasal/spectator-cli",
+  "version": "0.1.0",
+  "description": "Spectator templates generator",
+  "main": "index.js",
+  "scripts": {
+    "plop": "plop",
+    "release": "standard-version"
+  },
+  "author": "Netanel Basal",
+  "license": "MIT",
+  "bin": {
+    "spectator": "index.js"
+  },
+  "repository": {
+    "url": "https://github.com/NetanelBasal/spectator-cli"
+  },
+  "dependencies": {
+    "inquirer-directory": "^2.1.0",
+    "npm-run": "^4.1.2",
+    "pkg-dir": "^2.0.0",
+    "plop": "1.9.1",
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+    "standard-version": "^4.3.0"
+  }
+}
