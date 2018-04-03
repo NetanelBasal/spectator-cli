@@ -5,7 +5,7 @@
 Install it via npm:
 
 ```shell
-npm install @netbasal/spectator -g
+npm install @netbasal/spectator-cli -g
 ```
 
 ```shell
