@@ -6,6 +6,12 @@ describe('{{pascalCase name}}Directive', () => {
 
   const createHost = createHostComponentFactory({{pascalCase name}}Directive);
 
+  it('should get the instance', () => {
+    host = createHost(`<div {{camelCase name}}>Testing {{pascalCase name}}Directive</div>`);
+    const instance = host.getDirectiveInstance<{{pascalCase name}}>({{pascalCase name}});
+    expect(instance).toBeDefined();
+  });
+
   it('should change the background color', () => {
     host = createHost(`<div highlight>Testing {{pascalCase name}}Directive</div>`);
 
