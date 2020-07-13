@@ -23,6 +23,6 @@
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
-    "standard-version": "^4.3.0"
+    "standard-version": "^8.0.1"
   }
 }
